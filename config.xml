@@ -19,5 +19,5 @@
   <AppSettings>
     <Setup Name="Company" Value="D &amp; M Carriers - Freymiller Trucking" />
   </AppSettings>
-  <Display Level="None" AcceptEULA="FALSE" />
+  <Display Level="None" AcceptEULA="TRUE" />
 </Configuration>
