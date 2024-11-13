@@ -1,5 +1,5 @@
-<Configuration ID="ee658c12-a980-4afd-8a68-5aca26fb9dc5">
-  <Add OfficeClientEdition="64" Channel="Current">
+<Configuration ID="24cfb2cf-ce59-4f1b-8d6b-f3593d58e950">
+  <Add OfficeClientEdition="64" Channel="Current" SourcePath="C:\temp" AllowCdnFallback="TRUE">
     <Product ID="O365BusinessRetail">
       <Language ID="en-us" />
       <ExcludeApp ID="Groove" />
@@ -7,7 +7,15 @@
     </Product>
   </Add>
   <Updates Enabled="TRUE" />
-  <RemoveMSI />
+  <RemoveMSI>
+    <IgnoreProduct ID="InfoPath" />
+    <IgnoreProduct ID="InfoPathR" />
+    <IgnoreProduct ID="PrjPro" />
+    <IgnoreProduct ID="PrjStd" />
+    <IgnoreProduct ID="SharePointDesigner" />
+    <IgnoreProduct ID="VisPro" />
+    <IgnoreProduct ID="VisStd" />
+  </RemoveMSI>
   <AppSettings>
     <Setup Name="Company" Value="D &amp; M Carriers - Freymiller Trucking" />
   </AppSettings>
