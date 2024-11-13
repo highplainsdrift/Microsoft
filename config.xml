@@ -1,0 +1,15 @@
+<Configuration ID="ee658c12-a980-4afd-8a68-5aca26fb9dc5">
+  <Add OfficeClientEdition="64" Channel="Current">
+    <Product ID="O365BusinessRetail">
+      <Language ID="en-us" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+    </Product>
+  </Add>
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <AppSettings>
+    <Setup Name="Company" Value="D &amp; M Carriers - Freymiller Trucking" />
+  </AppSettings>
+  <Display Level="None" AcceptEULA="FALSE" />
+</Configuration>
