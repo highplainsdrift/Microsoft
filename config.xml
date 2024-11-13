@@ -1,4 +1,26 @@
-<Configuration ID="24cfb2cf-ce59-4f1b-8d6b-f3593d58e950">
+<Configuration ID="f29c4a6c-26ff-43f9-9072-efa09278d180">
+  <Add OfficeClientEdition="64" Channel="Current" SourcePath="C:\temp" AllowCdnFallback="TRUE">
+    <Product ID="O365BusinessRetail">
+      <Language ID="en-us" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+    </Product>
+  </Add>
+  <Updates Enabled="TRUE" />
+  <RemoveMSI>
+    <IgnoreProduct ID="InfoPath" />
+    <IgnoreProduct ID="InfoPathR" />
+    <IgnoreProduct ID="PrjPro" />
+    <IgnoreProduct ID="PrjStd" />
+    <IgnoreProduct ID="SharePointDesigner" />
+    <IgnoreProduct ID="VisPro" />
+    <IgnoreProduct ID="VisStd" />
+  </RemoveMSI>
+  <AppSettings>
+    <Setup Name="Company" Value="D &amp; M Carriers - Freymiller Trucking" />
+  </AppSettings>
+  <Display Level="None" AcceptEULA="TRUE" />
+</Configuration><Configuration ID="24cfb2cf-ce59-4f1b-8d6b-f3593d58e950">
   <Add OfficeClientEdition="64" Channel="Current" SourcePath="C:\temp" AllowCdnFallback="TRUE">
     <Product ID="O365BusinessRetail">
       <Language ID="en-us" />
